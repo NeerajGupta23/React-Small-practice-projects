@@ -1,0 +1,80 @@
+/* Paging Content css */
+#user-content-container {
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 50px;
+    background-color: rgb(207, 207, 207);
+
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user-content {
+    border: 5px solid rgb(124 0 232);
+    border-radius: 20px;
+    background-color: rgb(58 0 97);
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    min-width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin: 20px;
+}
+
+.row {
+    background-color: rgb(169 197 255);
+    margin: 20px 8%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.row-header {
+    text-align: center;
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+    border-bottom: 2px solid rgb(169 197 255);
+    color: rgb(250, 224, 253);
+}
+
+/* Paging Index css */
+#page_index {
+    width: 30.7%;
+    margin: auto;
+}
+
+.svg_arrow_div {
+    display: inline;
+    background-color: rgba(251, 0, 0, 0.72);
+    border-radius: 100px;
+    margin: 8px;
+    padding: 12px 11px;
+    opacity: 0.8;
+}
+
+.arrow_mid {
+    margin-top: 20px;
+    background-color: rgb(220, 220, 220);
+    display: inline;
+    border-radius: 40px;
+    padding: 10px 0px;
+}
+
+.arrow_mid li {
+    display: inline;
+    margin: 0px;
+    border-radius: 40px;
+    padding: 15px 20px;
+}
+
+#one {
+    border: 2px solid rgba(251, 0, 0, 0.72);
+}

@@ -1,0 +1,54 @@
+/* Paging Index css */
+#page_index {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.svg_arrow_div {
+    display: inline;
+    background-color: rgba(251, 54, 0, 0.72);
+    border-radius: 100px;
+    padding: 12px 14px;
+    opacity: 0.8;
+    margin: 0%;
+    cursor: pointer;
+    border: none;
+}
+
+.rotate-reverse {
+    transform: rotate(180deg);
+}
+
+.svg_arrow_div:active {
+    position: relative;
+    bottom: 4px;
+    background-color: rgba(251, 0, 0, 0.72);
+}
+
+.arrow_mid {
+    margin-top: 20px;
+    background-color: rgb(220, 220, 220);
+    display: inline;
+    border-radius: 40px;
+    padding: 10px 0px;
+    margin: 0% 15px;
+    margin-top: 2px;
+}
+
+.arrow_mid li {
+    display: inline;
+    margin: 0px;
+    border-radius: 50px;
+    padding: 20px 25px;
+}
+
+#circle {
+    border: 2px solid rgba(251, 0, 0, 0.72);
+}
+
+#disabled {
+    display: none;
+}

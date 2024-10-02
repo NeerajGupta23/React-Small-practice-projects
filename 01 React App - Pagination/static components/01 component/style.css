@@ -1,0 +1,33 @@
+#page_index {
+  width: 41%;
+  margin: auto;
+  border: 2px solid red;
+}
+
+.svg_arrow_div {
+  display: inline;
+  background-color: rgba(251, 0, 0, 0.72);
+  border-radius: 100px;
+  margin: 8px;
+  padding: 12px 11px;
+  opacity: 0.8;
+}
+
+.arrow_mid {
+  margin-top: 20px;
+  background-color: rgb(220, 220, 220);
+  display: inline;
+  border-radius: 40px;
+  padding: 10px 0px;
+}
+
+.arrow_mid li {
+  display: inline;
+  margin: 0px;
+  border-radius: 40px;
+  padding: 15px 20px;
+}
+
+#one {
+  border: 2px solid rgba(251, 0, 0, 0.72);
+}
